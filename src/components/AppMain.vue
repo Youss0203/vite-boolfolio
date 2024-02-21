@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             
-                <div class="card col-4 mx-2" v-for="project in projects" style="width: 25rem;">
+                <div class="card col-4 mx-2 mb-4" v-for="project in projects" style="width: 25rem;">
             <div class="card-body">
             <h5 class="card-title">
                 {{ project.nome }}
@@ -16,6 +16,7 @@
              <p>
                 {{project.type.tipo}}
              </p>
+             <p class="text-primary">{{project.repo_url}}</p>
     </div>
             </div>
     </div>
