@@ -1,8 +1,8 @@
 <template lang="">
-
+    <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="card " v-for="project in projects" style="width: 18rem;">
+            
+                <div class="card col-4 mx-2" v-for="project in projects" style="width: 25rem;">
             <div class="card-body">
             <h5 class="card-title">
                 {{ project.nome }}
@@ -18,8 +18,8 @@
              </p>
     </div>
             </div>
-        </div>
     </div>
+</div>
 
 </template>
 <script>
